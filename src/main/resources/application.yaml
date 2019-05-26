@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://xxxx:3306/test
+    username: root
+    password: root
+mybatis:
+  typeAliasesPackage: com.oss.jwtdemo.ossjwtdemo.bean
+  config-location: classpath:mybatis/mybatis.xml
+  mapper-locations: classpath:mapper/*.xml
+debug: true
+server:
+  port: 8888
